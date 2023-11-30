@@ -1,0 +1,88 @@
+Temos um modelo de cliente Gerado
+
+Módulo
+
+    Composto por:
+
+    Controllers
+        ClienteController.php
+    
+    Models
+        Cliente.php
+        Cliente Model.php //operações do banco de dados
+
+    Views 
+        Clientes
+            adicionar.php
+            index.php
+            editar.php
+            excluir.php
+
+
+Novo Módulo //devemos replicar o módulo com o mínimo de 8 atributos: campos gravados no banco
+
+    Controllers
+           3 ClienteController.php
+        
+        Models
+           1 Cliente.php
+           2 Cliente Model.php //operações do banco de dados
+
+        Views 
+            Clientes
+               5 adicionar.php
+               4 index.php
+               7 editar.php
+               6 excluir.php
+
+
+
+Novo Módulo //devemos replicar o módulo com o mínimo de 8 atributos: campos gravados no banco
+
+    Controllers
+           3 MusicaController.php
+        
+        Models
+           1 Musica.php
+           2 MusicaModel.php //operações do banco de dados
+
+        Views 
+            Clientes
+               5 adicionar.php
+               4 index.php
+               7 editar.php
+               6 excluir.php
+
+
+               Músicas
+
+               id  AUTO_INCREMENT
+               nome varchar
+               genero varchar
+               ano    date 
+               duração time
+               cantor  varchar
+               descricao varchar
+               views      int
+               
+
+            
+
+
+
+
+
+    Código banco 
+
+    Banco: aula_crud 
+
+    Tabela clientes e agora o código:
+
+    DROP TABLE IF EXISTS `categorias`;
+CREATE TABLE `categorias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) DEFAULT NULL,
+  `descricao` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

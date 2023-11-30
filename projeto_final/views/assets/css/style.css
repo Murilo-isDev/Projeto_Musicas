@@ -1,0 +1,29 @@
+.menu {
+    background-color: rgb(78, 31, 129);
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1vh;
+    margin-left: -3vh;
+}
+.menu nav a {
+    background-color: rgb(252, 230, 36);
+    margin-bottom: 2px;
+    color: black;
+    border: 1px solid black;
+}
+
+.menu nav a:hover{
+    font-weight: bold;
+    color: whitesmoke;
+} 
+
+
+body {
+    background-color: rgb(105, 30, 134);
+}
+
+div{
+    color: whitesmoke;
+}
+
+
